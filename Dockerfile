@@ -2,7 +2,7 @@ FROM nginx:latest
 
 COPY index.html /usr/share/nginx/html
 COPY linux.png /usr/share/nginx/html
-RUN apt update && apt install wget -y && wget http://www.eicar.org/download/eicar.com.txt
+RUN echo -n 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' > covid19
 
 EXPOSE 80 443 	
 
